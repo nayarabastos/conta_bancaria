@@ -3,6 +3,7 @@ import java.util.*;
 
 import conta_bancaria.model.Conta;
 import conta_bancaria.model.ContaCorrente;
+import conta_bancaria.model.ContaPoupanca;
 import conta_bancaria.util.Cores;
 
 public class Menu {
@@ -33,7 +34,7 @@ public class Menu {
 		c2.visualizar();
 		
 		c2.depositar(50000.00f);
-		c2.visualizar();*/
+		c2.visualizar();
 		
 		//Inctanciar Objetos da Classe ContaCorrente
 		ContaCorrente cc1 = new ContaCorrente(3,789,1,"Raquel",200000.00f,2000.00f);
@@ -47,7 +48,10 @@ public class Menu {
 		
 		
 		cc1.depositar(2000.00f);
-		cc1.visualizar();
+		cc1.visualizar();*/
+		
+		ContaPoupanca cp1 = new ContaPoupanca(4, 666, 2, "Nayara",1000000.00f,23);
+		cp1.visualizar();
 		
 		while(true) {
 				System.out.println(Cores.TEXT_BLACK_BOLD + Cores.ANSI_GREEN_BACKGROUND);
