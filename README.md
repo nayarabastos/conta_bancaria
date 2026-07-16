@@ -110,7 +110,7 @@ ContaPoupanca --|> Conta
 
 <div align="center">
 
-<img src="https://i.imgur.com/MFK9yXB.png" width="90%"/>
+<img src="https://imgur.com/1wI9glW.png" width="90%"/>
 
 </div>
 
