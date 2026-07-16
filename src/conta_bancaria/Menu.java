@@ -19,10 +19,10 @@ public class Menu {
 		criarContasTeste();
 
 		while (true) {
-			System.out.println(Cores.TEXT_BLACK_BOLD + Cores.ANSI_GREEN_BACKGROUND);
+			System.out.println(Cores.TEXT_BLACK_BOLD + Cores.ANSI_CYAN_BACKGROUND);
 			System.out.println("*****************************************************");
 			System.out.println("                                                     ");
-			System.out.println("                    BANCO BRAT                       ");
+			System.out.println("                      NAY BANK                       ");
 			System.out.println("                                                     ");
 			System.out.println("*****************************************************");
 			System.out.println("                                                     ");
@@ -59,70 +59,70 @@ public class Menu {
 
 			switch (opcao) {
 			case 1:
-				System.out.println(Cores.ANSI_GREEN_BACKGROUND + Cores.TEXT_BLACK_BOLD
+				System.out.println(Cores.ANSI_CYAN_BACKGROUND + Cores.TEXT_BLACK_BOLD
 						+ "                    Criar Conta                      \n");
 				cadastrarConta();
 				keyPress();
 				break;
 
 			case 2:
-				System.out.println(Cores.ANSI_GREEN_BACKGROUND + Cores.TEXT_BLACK_BOLD
+				System.out.println(Cores.ANSI_CYAN_BACKGROUND + Cores.TEXT_BLACK_BOLD
 						+ "              Listar todas as Contas                 \n");
 				listarContas();
 				keyPress();
 				break;
 
 			case 3:
-				System.out.println(Cores.ANSI_GREEN_BACKGROUND + Cores.TEXT_BLACK_BOLD
+				System.out.println(Cores.ANSI_CYAN_BACKGROUND + Cores.TEXT_BLACK_BOLD
 						+ "        Consultar dados da Conta - por número        \n");
 				procurarContaPorNumero();
 				keyPress();
 				break;
 
 			case 4:
-				System.out.println(Cores.ANSI_GREEN_BACKGROUND + Cores.TEXT_BLACK_BOLD
+				System.out.println(Cores.ANSI_CYAN_BACKGROUND + Cores.TEXT_BLACK_BOLD
 						+ "             Atualizar dados da Conta                \n");
 				atualizarConta();
 				keyPress();
 				break;
 
 			case 5:
-				System.out.println(Cores.ANSI_GREEN_BACKGROUND + Cores.TEXT_BLACK_BOLD
+				System.out.println(Cores.ANSI_CYAN_BACKGROUND + Cores.TEXT_BLACK_BOLD
 						+ "                 Apagar a Conta                      \n");
 				deletarConta();
 				keyPress();
 				break;
 
 			case 6:
-				System.out.println(Cores.ANSI_GREEN_BACKGROUND + Cores.TEXT_BLACK_BOLD
+				System.out.println(Cores.ANSI_CYAN_BACKGROUND + Cores.TEXT_BLACK_BOLD
 						+ "                    Saque                            \n");
 				sacar();
 				keyPress();
 				break;
 
 			case 7:
-				System.out.println(Cores.ANSI_GREEN_BACKGROUND + Cores.TEXT_BLACK_BOLD
+				System.out.println(Cores.ANSI_CYAN_BACKGROUND + Cores.TEXT_BLACK_BOLD
 						+ "                   Depósito                         \n");
 				depositar();
 				keyPress();
 				break;
 
 			case 8:
-				System.out.println(Cores.ANSI_GREEN_BACKGROUND + Cores.TEXT_BLACK_BOLD
+				System.out.println(Cores.ANSI_CYAN_BACKGROUND + Cores.TEXT_BLACK_BOLD
 						+ "         Transferência entre Contas                 \n");
 				transferir();
 				keyPress();
 				break;
 				
 			case 9:
-				System.out.println(Cores.ANSI_GREEN_BACKGROUND + Cores.TEXT_BLACK_BOLD
+				System.out.println(Cores.ANSI_CYAN_BACKGROUND + Cores.TEXT_BLACK_BOLD
 						+ "              Consultar Titular                    \n");
 				listarPorTitular();
 				keyPress();
 				break;
 
 			default:
-				System.out.println(Cores.ANSI_GREEN_BACKGROUND + Cores.TEXT_BLACK_BOLD
+				System.out.println(Cores.ANSI_CYAN_BACKGROUND + Cores.TEXT_BLACK_BOLD
 						+ "             \nOpção Inválida!                      \n");
 				keyPress();
 				break;
